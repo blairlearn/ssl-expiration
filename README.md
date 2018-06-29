@@ -9,5 +9,5 @@ Uses the get-ssl-certificate module to retrieve a site's TLS certificate
     });
 
 
-Under the hood, `certificate` is an object returned by [tlsSocket.getPeerCertificate()]](https://nodejs.org/api/tls.html#tls_tlssocket_getpeercertificate_detailed)
+Under the hood, `certificate` is an object returned by [tlsSocket.getPeerCertificate()](https://nodejs.org/api/tls.html#tls_tlssocket_getpeercertificate_detailed)
 and those properties are available in addition to the expiration date.
